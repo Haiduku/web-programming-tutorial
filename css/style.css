@@ -30,10 +30,10 @@ header {
     background-color: white;
 }
 
-#logo {
-    text-decoration: none;
-    float: left;
-}
+/*#logo {*/
+    /*text-decoration: none;*/
+    /*float: left;*/
+/*}*/
 
 header h1 {
     text-align: right;
@@ -63,7 +63,7 @@ footer {
     bottom: 0;
     position: fixed;
     width: 100%;
-    background-color: #3b8dbd;
+    background-color: #000000;
     color: #ffffff;
     font-size: 0.9em;
     padding: 8px;
@@ -73,8 +73,8 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #00aeef;
-    border-bottom: 1px solid #00aeef;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
     height: 40px;
     font-weight: bold;
 }
@@ -145,7 +145,7 @@ footer {
 }
 
 .widget.collapsed .content {
-    display: none;
+    display:none;
 }
 
 .widget.collapsed .header {
@@ -158,8 +158,18 @@ footer {
 }
 
 #content {
-    padding-left: 220px
+    padding-left: 220px;
+
 }
+#mainTitle {
+    top:2em ;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    /*font-style: oblique;*/
+    font-size: 9em;
+    text-align: center;
+
+}
+
 
 .red-element {
     color: red;
@@ -170,4 +180,75 @@ footer {
     padding: 5px;
     margin: 5px;
     border: 1px solid gray;
+}
+
+.vr {
+    width:0.5em;
+    height: 15em;
+    background-color:#000;
+    position:relative;
+    top:8em;
+    bottom:0em;
+    left:18em;
+    float: left;
+}
+.orTop {
+    width:15em;
+    height: 0.5em;
+    background-color:#000;
+    position:relative;
+    top:0em;
+    bottom:0em;
+    left:45em;
+}
+.vrRight {
+    width:10px;
+    height: 300px;
+    background-color:#000;
+    position:relative;
+    top:6em;
+    bottom:0em;
+    left:80em;
+    float: left;
+}
+.orBottom {
+    width:300px;
+    height: 10px;
+    background-color:#000;
+    position:relative;
+    top:28em;
+    bottom:0em;
+    left:43em;
+}
+.north {
+    left: 12.5em;
+    position:relative;
+    font-size: 4em;
+    color: #ff1c1c;
+
+}
+.west {
+    position:relative;
+    float: left;
+    font-size: 4em;
+    top: 2.4em;
+    left: 4em;
+    color: #ff1c1c;
+
+}
+.south {
+    top:11em;
+    left: 12.5em;
+    position:relative;
+    font-size: 4em;
+
+}
+.east {
+    position:relative;
+    float: left;
+    font-size: 4em;
+    top: 2.4em;
+    left: 22em;
+    color: #ff1c1c;
+
 }

@@ -19,6 +19,23 @@ newsWidget.getElementsByClassName("header")[0].onclick = function () {
     }
 };
 
+var linksHelp = document.getElementById("help-widget");
+linksHelp.getElementsByClassName("header")[0].onclick = function() {
+    if (linksHelp.className == "widget") {
+        linksHelp.className = "widget collapsed";
+    } else {
+        linksHelp.className = "widget";
+    }
+};
+var google = document.getElementById("google-search");
+google.getElementsByClassName("header")[0].onclick = function() {
+    if (google.className == "widget") {
+        google.className = "widget collapsed";
+    } else {
+        google.className = "widget";
+    }
+};
+
 // actions for top links
 var links = document.getElementById("top-menu").getElementsByTagName("a");
 for (var i = 0; i < links.length; i++) {
