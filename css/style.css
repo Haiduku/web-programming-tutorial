@@ -1,5 +1,5 @@
 body {
-    background-color: #eaeaea;
+
 }
 
 p {
@@ -37,7 +37,7 @@ header {
 
 header h1 {
     text-align: right;
-    color: #3b8dbd;
+    color: #161e2a;
 }
 
 #content-wrapper {
@@ -46,12 +46,12 @@ header h1 {
 }
 
 #breadcrumb {
-    background: #dcdcdc url("../img/house.png") 3px center no-repeat;
+    background: #161e2a url("../img/house.png") 3px center no-repeat;
     padding: 10px 5px 10px 40px;
-    border: 1px solid #00aeef;
+    border: 1px solid #512d6d;
     border-radius: 3px;
     box-shadow: 1px 1px 3px #c2c2c2;
-    color: #245674;
+    color: #512d6d;
 }
 
 .clear {
@@ -59,11 +59,12 @@ header h1 {
 }
 
 footer {
+
     text-align: center;
     bottom: 0;
     position: fixed;
     width: 100%;
-    background-color: #000000;
+    background-color: #161e2a;
     color: #ffffff;
     font-size: 0.9em;
     padding: 8px;
@@ -73,8 +74,8 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #000000;
-    border-bottom: 1px solid #000000;
+    background-color:  #161e2a;
+    border-bottom: 1px solid  #161e2a;
     height: 40px;
     font-weight: bold;
 }
@@ -102,11 +103,11 @@ footer {
 }
 
 #top-menu div ul a:hover {
-    color: #29a7e1;
+    color: #161e2a;
     background: #ffffff;
 }
 #top-menu div ul a:active {
-    background: #c7e6f5;
+    background: #161e2a;
 }
 
 #left-bar {
@@ -120,12 +121,12 @@ footer {
     background: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
-    border-color: #00aeef;
+    border-color:#161e2a;
     box-shadow: 1px 1px 3px #c2c2c2;
 }
 
 .widget .header {
-    background: #3b8dbd url("../img/toggle-collapse.png") 15px center no-repeat;
+    background: #161e2a url("../img/toggle-collapse.png") 15px center no-repeat;
     color: #ffffff;
     padding: 15px;
     text-align: right;
@@ -162,11 +163,18 @@ footer {
 
 }
 #mainTitle {
-    top:2em ;
     font-family: Comic Sans, Comic Sans MS, cursive;
     /*font-style: oblique;*/
-    font-size: 9em;
+    font-size: 2em;
     text-align: center;
+
+}
+
+#inform {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    /*font-style: oblique;*/
+    font-size: 1em;
+    text-align: right;
 
 }
 
@@ -182,73 +190,17 @@ footer {
     border: 1px solid gray;
 }
 
-.vr {
-    width:0.5em;
-    height: 15em;
-    background-color:#000;
-    position:relative;
-    top:8em;
-    bottom:0em;
-    left:18em;
-    float: left;
-}
-.orTop {
-    width:15em;
-    height: 0.5em;
-    background-color:#000;
-    position:relative;
-    top:0em;
-    bottom:0em;
-    left:45em;
-}
-.vrRight {
-    width:10px;
-    height: 300px;
-    background-color:#000;
-    position:relative;
-    top:6em;
-    bottom:0em;
-    left:80em;
-    float: left;
-}
-.orBottom {
-    width:300px;
-    height: 10px;
-    background-color:#000;
-    position:relative;
-    top:28em;
-    bottom:0em;
-    left:43em;
-}
-.north {
-    left: 12.5em;
-    position:relative;
-    font-size: 4em;
-    color: #ff1c1c;
 
+.widget tr{
+    border-bottom: 1px solid #000000;
 }
-.west {
-    position:relative;
-    float: left;
-    font-size: 4em;
-    top: 2.4em;
-    left: 4em;
-    color: #ff1c1c;
 
+.widget table td{
+    border: 1px solid #161e2a;
+    padding: 3px;
+    margin: 0;
+    width: 20px;
 }
-.south {
-    top:11em;
-    left: 12.5em;
-    position:relative;
-    font-size: 4em;
-
-}
-.east {
-    position:relative;
-    float: left;
-    font-size: 4em;
-    top: 2.4em;
-    left: 22em;
-    color: #ff1c1c;
-
+.today {
+    background: deepskyblue;
 }

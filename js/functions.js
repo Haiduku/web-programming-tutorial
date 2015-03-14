@@ -43,3 +43,23 @@ for (var i = 0; i < links.length; i++) {
         document.getElementById("breadcrumb").innerHTML = this.innerHTML + " : " + this.title;
     }
 }
+
+var days = document.getElementById("calendar-widget").getElementsByTagName("td");
+var today = new Date().getDate() ;
+for (var i=0; i<days.length; i++){
+    if(days[i].innerHTML == today){
+        days[i].className = "today";
+    }
+}
+
+var selectedTds = document.getElementById("calendar-widget").getElementsByTagName("td");
+for (var i=0; i<selectedTds.length; i++){
+   selectedTds[i].onclick=function(){
+      //selectedTds[i].className = "today";
+      this.className = "today";
+   }
+
+}
+
+
+
