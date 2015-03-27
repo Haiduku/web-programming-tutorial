@@ -31,8 +31,8 @@ header {
 }
 
 /*#logo {*/
-    /*text-decoration: none;*/
-    /*float: left;*/
+/*text-decoration: none;*/
+/*float: left;*/
 /*}*/
 
 header h1 {
@@ -74,8 +74,8 @@ footer {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color:  #161e2a;
-    border-bottom: 1px solid  #161e2a;
+    background-color: #161e2a;
+    border-bottom: 1px solid #161e2a;
     height: 40px;
     font-weight: bold;
 }
@@ -106,6 +106,7 @@ footer {
     color: #161e2a;
     background: #ffffff;
 }
+
 #top-menu div ul a:active {
     background: #161e2a;
 }
@@ -121,7 +122,7 @@ footer {
     background: #fff;
     border-width: 0 1px 1px 0;
     border-style: solid;
-    border-color:#161e2a;
+    border-color: #161e2a;
     box-shadow: 1px 1px 3px #c2c2c2;
 }
 
@@ -146,7 +147,7 @@ footer {
 }
 
 .widget.collapsed .content {
-    display:none;
+    display: none;
 }
 
 .widget.collapsed .header {
@@ -154,7 +155,7 @@ footer {
     background-image: url("../img/toggle-expand.png");
 }
 
-#google-search #q{
+#google-search #q {
     margin: 5px 0;
 }
 
@@ -162,6 +163,7 @@ footer {
     padding-left: 220px;
 
 }
+
 #mainTitle {
     font-family: Comic Sans, Comic Sans MS, cursive;
     /*font-style: oblique;*/
@@ -178,7 +180,6 @@ footer {
 
 }
 
-
 .red-element {
     color: red;
 }
@@ -190,17 +191,49 @@ footer {
     border: 1px solid gray;
 }
 
-
-.widget tr{
+.widget tr {
     border-bottom: 1px solid #000000;
 }
 
-.widget table td{
+.widget table td {
     border: 1px solid #161e2a;
     padding: 3px;
     margin: 0;
     width: 20px;
 }
+
 .today {
     background: deepskyblue;
+}
+
+.cards-table {
+    margin-top: 10px;
+
+}
+
+.card {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 50px;
+    height: 100px;
+    padding: 5px;
+    background: #ffffff;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.card-symbol {
+    text-align: center;
+    font-size: 3em;
+}
+
+.card-name-bottom {
+    /*text-align: right;*/
+    transform: rotate(-180deg);
+    margin-top: 10px;
+}
+
+.red-card {
+    color: red;
 }
